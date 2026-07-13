@@ -1,0 +1,13 @@
+/* Shared styles for the UltraSNOM site */
+
+body {
+  background-color: #ffffff;
+  background-image: url("images/background.svg");
+}
+
+/* Active navigation link (applied by header.js for the current page) */
+.navbar .navbar-nav .nav-link.active-page {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.25rem;
+  color: #212529;
+}
